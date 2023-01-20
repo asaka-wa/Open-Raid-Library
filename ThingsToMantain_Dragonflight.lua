@@ -410,6 +410,7 @@ do
 			[51485] = {cooldown = 60,	duration = 20,	specs = {262, 263, 264},	talent = false,	charges = 1,	class = "SHAMAN",	type = 8}, --Earthgrab Totem
 			[383017] = {cooldown = 30,	duration = 0,	specs = {},					talent = false,	charges = 1,	class = "SHAMAN",	type = 4}, --Stoneskin Totem
 			[51514] = {cooldown = 30,	duration = 0,	specs = {},					talent = false,	charges = 1,	class = "SHAMAN",	type = 8}, --Hex
+			[51490] = {cooldown = 30,   duration = 5,   specs = {262, 263, 264},    talent = false, charges = 1,    class = "SHAMAN",   type = 8},
 
 			--monk
 			-- 268 - Brewmaster
