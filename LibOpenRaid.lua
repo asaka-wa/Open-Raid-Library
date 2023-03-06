@@ -1659,9 +1659,9 @@ openRaidLib.internalCallback.RegisterCallback("onLeaveCombat", openRaidLib.UnitI
         local offHandEnchantId = 0
         if equippedGearListSize then
             local mainHandEnchantIdIndex = tonumber(noEnchantTableSize + noGemsTableSize + equippedGearListSize + 7)
-            mainHandEnchantId = tonumber(data[mainHandEnchantIdIndex])
+            mainHandEnchantId = mainHandEnchantIdIndex and tonumber(data[mainHandEnchantIdIndex]) or 0
             local offHandEnchantIdIndex = tonumber(mainHandEnchantIdIndex + 1)
-            offHandEnchantId = tonumber(data[offHandEnchantIdIndex])
+            offHandEnchantId = offHandEnchantIdIndex and tonumber(data[offHandEnchantIdIndex]) or 0
         end
 
         --unpack the enchant data as a ipairs table
